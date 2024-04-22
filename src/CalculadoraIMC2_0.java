@@ -1,10 +1,12 @@
 import java.util.Scanner;
 
-public class CalculadoraIMC {
+public class CalculadoraIMC2_0 {
 
    
     
     public static void main(String[] args) {
+
+    
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("VERSION 2.0");
