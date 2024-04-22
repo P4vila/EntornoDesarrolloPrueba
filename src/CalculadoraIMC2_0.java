@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
-public class CalculadoraIMC {
+public class CalculadoraIMC2_0 {
 
    
     
     public static void main(String[] args) {
+
+    
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("VERSION 1.0");
+        System.out.println("VERSION 2.0");
         
         System.out.println("Calculadora de Índice de Masa Corporal (IMC)");
         System.out.println("Ingrese su peso en kilogramos:");
@@ -32,13 +34,13 @@ public class CalculadoraIMC {
     
     public static void interpretarIMC(double imc) {
         if (imc < 18.5) {
-            System.out.println("Bajo peso");
+            System.out.println("Tiene bajo peso");
         } else if (imc >= 18.5 && imc < 25) {
-            System.out.println("Peso normal");
+            System.out.println("Tiene peso normal, en la media");
         } else if (imc >= 25 && imc < 30) {
-            System.out.println("Sobrepeso");
+            System.out.println("Tiene Sobrepeso");
         } else {
-            System.out.println("Obesidad");
+            System.out.println("Tiene Obesidad , busque ayuda nutricional");
         }
     }
 }
